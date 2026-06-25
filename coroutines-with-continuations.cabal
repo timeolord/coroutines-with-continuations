@@ -19,7 +19,6 @@ maintainer:         timeolord6677@gmail.com
 -- A copyright notice.
 -- copyright:
 -- category:
-extra-source-files: CHANGELOG.md
 
 executable coroutines
     main-is:          Main.hs
@@ -28,7 +27,7 @@ executable coroutines
 
     -- LANGUAGE extensions used by modules in this package.
     -- other-extensions:
-    build-depends:    base ^>=4.16.4.0,
+    build-depends:    base >= 4.16,
                       mtl >= 2.3,
                       containers
     hs-source-dirs:   app
