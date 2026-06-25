@@ -1,5 +1,6 @@
 # Coroutines with Continuations
 
+![gif of the animated worm](./gifs/coroutines-with-continuations.gif)
 A Haskell implementation of coroutines built on top of `ContT` and `StateT`. Coroutines are scheduled cooperatively via `yield` and `fork`, with the continuation queue stored in the state layer. Includes a small demo of an animated worm that grows and shrinks using this coroutine system.
 
 ## Usage
